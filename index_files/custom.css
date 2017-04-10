@@ -1,0 +1,199 @@
+/***************************
+Add your custom styles below
+****************************/
+
+.form-custom {
+  padding: 2.6rem !important;
+  margin: 30px !important;
+}
+
+.nav-bar-no-backdrop {
+  border-bottom: none !important;
+  box-shadow: none;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+@media (min-width: 991px) {
+  .pos-vertical-center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+  .pos-vertical-center {
+    position: inherit;
+    top: inherit;;
+    transform: inherit;
+    -webkit-transform: inherit;
+  }
+}
+
+.zillow {
+  font-family: 'Gotham', sans-serif;
+  color: #444 !important;
+}
+
+.zillow > h1,
+.zillow > h2,
+.zillow > h3,
+.zillow > h4,
+.zillow > h5,
+.zillow > h6,
+.zillow > p {
+  font-family: 'Gotham', sans-serif;
+  color: #444 !important;
+}
+.zillow > h4 {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.input-with-icon > input:focus, select:focus, textarea:focus {
+  outline: 0 !important;
+  -webkit-transition: box-shadow .3s !important;
+  transition: box-shadow .3s !important;
+  box-shadow: inset 0 0 0 #f4f4f4, 0 0 5px #7fb9f1 !important;
+  border-color: #0074e4 !important;
+}
+
+.cover-12 form {
+  margin-top: 0px;
+}
+
+.zillow-input {
+  width: 100% !important;
+  padding: 4px 6px 2px !important;
+  background-color: #fff !important;
+  border: 1px solid #ccc !important;
+  line-height: 1.5em !important;
+  height: 30px !important;
+  padding-left: 25px !important;
+  box-shadow: inset 0 1px 2px -1px #ccc !important;
+  border-radius: 0px !important;
+}
+
+.zillow-form {
+  border: 1px solid #ddd;
+  border-top: 2px solid #0074e4;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  background-color: #fff;
+  padding: 10px;
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham-light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zillow-icon {
+  position: absolute !important;
+  font-size: .9rem !important;
+  margin-left: 7px !important;
+  top: 9px !important;
+  left: 0 !important;
+}
+
+.input-with-icon {
+  margin-bottom: 8px !important;
+}
+
+.zillow-button {
+  width: 100% !important;
+  font-size: 15px !important;
+  font-size: 1rem !important;
+  background: #0074e4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: .4em .67em;
+  text-align: center;
+  white-space: normal;
+  width: auto;
+  line-height: 1.5;
+}
+
+.zillow-demo-container {
+  -webkit-box-shadow: 5px 5px 39px -4px rgba(100,100,100,1);
+  -moz-box-shadow: 5px 5px 39px -4px rgba(100,100,100,1);
+  box-shadow: 5px 5px 39px -4px rgba(100,100,100,1);
+}
+.zillow-image-container {
+  height: 240px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.zillow-image-container img {
+  width: 100%;
+  display: flex;
+}
+
+.transbox {
+  background-color: #484848;
+  opacity: .95;
+  color: #444;
+  font-family: 'Gotham';
+}
+
+.transbox p {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+  opacity: 1 !important;
+}
+
+.demo-subtitle {
+  font-weight: 300;
+}
+
+.autotop {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+  text-shadow: black 2px 2px 10px;
+  font-family: 'Gotham', sans-serif;
+  margin-top: auto;
+}
+
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.thumbnail img{
+  max-width: 100%; /* do not stretch the bootstrap column */
+}
+
+.img-wrapper{
+  width: 100%;
+  padding-bottom: 100%; /* your aspect ratio here! */
+  position: relative;
+}
+
+.img-wrapper img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
+}
