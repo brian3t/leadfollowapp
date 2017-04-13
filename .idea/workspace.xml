@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd058ec-f8ec-45cb-bf4c-4f04fe9fc0ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -18,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="717" column="56" lean-forward="false" selection-start-line="717" selection-start-column="56" selection-end-line="717" selection-end-column="56" />
+            <state relative-caret-position="251">
+              <caret line="723" column="116" lean-forward="true" selection-start-line="723" selection-start-column="116" selection-end-line="723" selection-end-column="116" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,12 +45,12 @@
                 <element signature="n#style#0;n#div#6;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#7;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#8;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#29131#29139#1" expanded="true" />
-                <element signature="e#29246#29254#1" expanded="true" />
-                <element signature="e#33948#33956#1" expanded="true" />
-                <element signature="e#34018#34026#1" expanded="true" />
-                <element signature="e#34688#34696#1" expanded="true" />
-                <element signature="e#34732#34740#1" expanded="true" />
+                <element signature="e#29407#29415#1" expanded="true" />
+                <element signature="e#29522#29530#1" expanded="true" />
+                <element signature="e#34224#34232#1" expanded="true" />
+                <element signature="e#34294#34302#1" expanded="true" />
+                <element signature="e#34964#34972#1" expanded="true" />
+                <element signature="e#35008#35016#1" expanded="true" />
                 <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -271,6 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -418,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492095734951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Comodo Seal.">
+      <created>1492101019332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492101019332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -428,6 +437,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -456,7 +466,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Logo. Email links." />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo. Email links." />
+    <MESSAGE value="Comodo Seal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comodo Seal." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -491,12 +502,12 @@
             <element signature="n#style#0;n#div#6;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#29131#29139#1" expanded="true" />
-            <element signature="e#29246#29254#1" expanded="true" />
-            <element signature="e#33948#33956#1" expanded="true" />
-            <element signature="e#34018#34026#1" expanded="true" />
-            <element signature="e#34688#34696#1" expanded="true" />
-            <element signature="e#34732#34740#1" expanded="true" />
+            <element signature="e#29407#29415#1" expanded="true" />
+            <element signature="e#29522#29530#1" expanded="true" />
+            <element signature="e#34224#34232#1" expanded="true" />
+            <element signature="e#34294#34302#1" expanded="true" />
+            <element signature="e#34964#34972#1" expanded="true" />
+            <element signature="e#35008#35016#1" expanded="true" />
             <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -551,12 +562,12 @@
             <element signature="n#style#0;n#div#6;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#29131#29139#1" expanded="true" />
-            <element signature="e#29246#29254#1" expanded="true" />
-            <element signature="e#33948#33956#1" expanded="true" />
-            <element signature="e#34018#34026#1" expanded="true" />
-            <element signature="e#34688#34696#1" expanded="true" />
-            <element signature="e#34732#34740#1" expanded="true" />
+            <element signature="e#29407#29415#1" expanded="true" />
+            <element signature="e#29522#29530#1" expanded="true" />
+            <element signature="e#34224#34232#1" expanded="true" />
+            <element signature="e#34294#34302#1" expanded="true" />
+            <element signature="e#34964#34972#1" expanded="true" />
+            <element signature="e#35008#35016#1" expanded="true" />
             <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -611,12 +622,12 @@
             <element signature="n#style#0;n#div#6;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#29131#29139#1" expanded="true" />
-            <element signature="e#29246#29254#1" expanded="true" />
-            <element signature="e#33948#33956#1" expanded="true" />
-            <element signature="e#34018#34026#1" expanded="true" />
-            <element signature="e#34688#34696#1" expanded="true" />
-            <element signature="e#34732#34740#1" expanded="true" />
+            <element signature="e#29407#29415#1" expanded="true" />
+            <element signature="e#29522#29530#1" expanded="true" />
+            <element signature="e#34224#34232#1" expanded="true" />
+            <element signature="e#34294#34302#1" expanded="true" />
+            <element signature="e#34964#34972#1" expanded="true" />
+            <element signature="e#35008#35016#1" expanded="true" />
             <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -667,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="717" column="56" lean-forward="false" selection-start-line="717" selection-start-column="56" selection-end-line="717" selection-end-column="56" />
+        <state relative-caret-position="251">
+          <caret line="723" column="116" lean-forward="true" selection-start-line="723" selection-start-column="116" selection-end-line="723" selection-end-column="116" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -693,12 +704,12 @@
             <element signature="n#style#0;n#div#6;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#8;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#29131#29139#1" expanded="true" />
-            <element signature="e#29246#29254#1" expanded="true" />
-            <element signature="e#33948#33956#1" expanded="true" />
-            <element signature="e#34018#34026#1" expanded="true" />
-            <element signature="e#34688#34696#1" expanded="true" />
-            <element signature="e#34732#34740#1" expanded="true" />
+            <element signature="e#29407#29415#1" expanded="true" />
+            <element signature="e#29522#29530#1" expanded="true" />
+            <element signature="e#34224#34232#1" expanded="true" />
+            <element signature="e#34294#34302#1" expanded="true" />
+            <element signature="e#34964#34972#1" expanded="true" />
+            <element signature="e#35008#35016#1" expanded="true" />
             <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
