@@ -2093,3 +2093,5 @@ blockquote footer, blockquote small, blockquote .small { margin-top: 5px }
     border-color: #ccc;
     color:#555;
 }
+div.tparrows, div.tp-bullets{display: none}
+form#contact{margin-top:20px;}
