@@ -2,8 +2,17 @@
     "use strict";
     $(document).ready(function () {
         $('#send_email').on('click', function (e) {
-            var $e = $(e._eventTarget);
-            
+            var $e = $(e.target);
+            var fields = flat_array_to_assoc($e.closest('form').serializeArray());
+            $.post('http://usvlocal/ml.php', fields).done(function (data) {
+                if (data.hasOwnProperty('status') && data.status === 'ok') {
+                    $('#email_success').slideDown();
+                }
+            });
+        });
+        $('a[href*=\\#]').on('click', function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1500);
         });
         /* Responsive Menu */
         $('#dl-menu').dlmenu({
