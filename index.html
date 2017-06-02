@@ -24,6 +24,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
     <link href="assets/css/navstylechange.css" media="screen" rel="stylesheet" type="text/css">
     <link href="assets/css/cubeportfolio.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="assets/css/testimonialrotator.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/css/whirl.min.css" rel="stylesheet" type="text/css">
     <!-- JS FILES -->
     <script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
@@ -452,7 +453,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                 </div>
             </div>
         </div>
-        <form id="contact" class="col-xs-4 col-xs-offset-4 form-horizontal">
+        <form id="contact" class="col-xs-4 col-xs-offset-4 form-horizontal no-overlay">
             <br>
             <div class="col-xs-12">
                 <div class="promo-block">
@@ -480,11 +481,12 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
             <input type="hidden" name="key" value="f>6Ea@/N7e">
             <button type="button" id="send_email" class="btn btn-lg btn-primary col-xs-offset-5">Send</button>
             <br><br>
-            <div id="email_success" class="alert alert-warning alert-dismissible" style="display: none" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                We've got your message and we'll get back to you shortly. <strong>Thank you!</strong>
-            </div>
+
         </form>
+        <div id="email_success" class="text-center col-xs-6 col-xs-offset-3 alert alert-warning alert-dismissible" style="display: none;font-size: 150%" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            We've got your message and we'll get back to you shortly. <strong>Thank you!</strong>
+        </div>
         <div class="footer" style="margin-top:0px;">
             <div class="container">
                 <div class="row">
