@@ -1453,3 +1453,8 @@ zoom: 1;
 .revicon-equalizer:before { content: '\e83a'; } /* '' */
 .revicon-layers-alt:before { content: '\e804'; } /* '' */
 .revicon-popup:before { content: '\e828'; } /* '' */
+a.shadow_btn {
+	color: #222;
+	text-shadow: 1px 1px 1px #555;
+}
+div.slick  img{width: 100%}

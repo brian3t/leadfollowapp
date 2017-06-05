@@ -25,6 +25,8 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
     <link href="assets/css/cubeportfolio.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="assets/css/testimonialrotator.css" media="screen" rel="stylesheet" type="text/css">
     <link href="assets/css/whirl.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/slick-theme.css" rel="stylesheet" type="text/css">
     <!-- JS FILES -->
     <script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
@@ -39,7 +41,9 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                 <div class="row">
                     <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 pull-left">
                         <ul class="contact-top">
-                            <li><i class="icon-location"></i> <a target="_blank" href="https://www.google.com/maps/place/5995+Dandridge+Ln,+San+Diego,+CA+92115">5995 Dandridge Ln, San Diego</a></li>
+                            <li><i class="icon-location"></i> <a target="_blank"
+                                                                 href="https://www.google.com/maps/place/5995+Dandridge+Ln,+San+Diego,+CA+92115">5995 Dandridge
+                                Ln, San Diego</a></li>
                             <li><i class="icon-mobile"></i><a href="tel:5593474767">(559) 347 4767</a></li>
                             <li><a href="mailto:support@leadfollowapp.com"><i class="icon-mail"></i> support@leadfollowapp.com</a></li>
                         </ul>
@@ -65,7 +69,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 pull-left">
-                            <div class="logo"><a href="#"><img src="img/logo_scrshot.png" alt=""></a></div>
+                            <div class="logo"><a href="#"><img style="height: 55px" src="img/logo_full.png" alt=""></a></div>
                         </div>
                         <div class="col-lg-9 pull-right">
                             <div class="menu">
@@ -105,7 +109,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                          data-endspeed="500"
                          data-endeasing="Power4.easeIn"
                          data-captionhidden="on"
-                         style="z-index: 4">Real Estate Concierge that helps you follow lead
+                         style="z-index: 4">Real Estate Concierge that helps you follow leads
                     </div>
                     <div class="tp-caption largeborder skewfromrightshort"
                          data-x="center"
@@ -142,7 +146,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                          data-endspeed="500"
                          data-endeasing="Power4.easeIn"
                          data-captionhidden="on"
-                         style="z-index: 9"><a href="#contact">CONTACT US</a>
+                         style="z-index: 9"><a class="shadow_btn" href="#contact">Try LeadFollow for free</a>
                     </div>
                 </li>
             </ul>
@@ -156,19 +160,10 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                     startheight: 500,
                     hideThumbs: 10,
                     forceFullWidth: "off",
+                    touchenabled: "off"
                 });
             }); //ready
         </script>
-        <div class="container marg75">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="promo-block">
-                        <div class="promo-text">Our Services</div>
-                        <div class="center-line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12">
@@ -425,30 +420,18 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
             <div class="row">
                 <div class="col-lg-12">
                     <div class="promo-block">
-                        <div class="promo-text">Our Clients</div>
+                        <div class="promo-text">Where our users come from</div>
                         <div class="center-line"></div>
                     </div>
                 </div>
                 <div class="col-lg-12 marg25">
-                    <div class="jcarousel-wrapper">
-                        <div class="jcarousel">
-                            <ul>
-                                <li><a href="#"><img src="assets/images/client-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-2.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-3.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-5.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-6.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-4.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-2.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-3.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-5.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-6.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="assets/images/client-4.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                    <div class="slick">
+                        <div><img src="assets/img/CB-Logo-Black.png" alt=""></div>
+                        <div><img src="assets/img/century21global-logo.png" alt=""></div>
+                        <div><img src="assets/img/remerica_re.png" alt=""></div>
+
+                        <div><img src="assets/img/ReMax-Logo-Black.png" alt=""></div>
+                        <div><img style="width: 90%" src="assets/img/Windermere-Logo-Black_resize.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -483,7 +466,8 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
             <br><br>
 
         </form>
-        <div id="email_success" class="text-center col-xs-6 col-xs-offset-3 alert alert-warning alert-dismissible" style="display: none;font-size: 150%" role="alert">
+        <div id="email_success" class="text-center col-xs-6 col-xs-offset-3 alert alert-warning alert-dismissible" style="display: none;font-size: 150%"
+             role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             We've got your message and we'll get back to you shortly. <strong>Thank you!</strong>
         </div>
@@ -565,11 +549,12 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
     <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="assets/js/jquery.cubeportfolio.min.js"></script>
     <script type="text/javascript" src="assets/js/portfolio-main.js"></script>
-    <script type="text/javascript" src="assets/js/jcarousel.responsive.js"></script>
     <script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.dlmenu.js"></script>
     <script type="text/javascript" src="assets/js/tweetie.js"></script>
     <script type="text/javascript" src="assets/js/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+</div>
 </body>
 </html>

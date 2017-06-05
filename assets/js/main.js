@@ -15,10 +15,17 @@
                 $('html,#contact').removeClass('whirl');
             });
         });
-        $('a[href*=\\#]').on('click', function (event) {
-            event.preventDefault();
-            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1500);
+        $('.slick').slick({
+            slidesPerRow: 5,
+            slidesToShow: 4,
+            dots:true
         });
+        /*$('a[href*=\\#]').on('click', function (event) {
+            event.preventDefault();
+            if (typeof $(this.hash).offset() !== 'undefined') {
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1500);
+            }
+        });*/
         /* Responsive Menu */
         $('#dl-menu').dlmenu({
             animationClasses: {
