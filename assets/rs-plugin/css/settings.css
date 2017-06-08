@@ -1458,3 +1458,8 @@ a.shadow_btn {
 	text-shadow: 1px 1px 1px #555;
 }
 div.slick  img{width: 100%}
+.light_text_shadow{text-shadow: 1px 1px 0 rgba(0,0,0,0.2)}
+ul.row_marg_100 > li{margin-bottom: 100px}
+div.font_size_120p *{
+	font-size: 120%;
+}
