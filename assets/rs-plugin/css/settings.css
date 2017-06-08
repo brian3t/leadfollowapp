@@ -1463,3 +1463,6 @@ ul.row_marg_100 > li{margin-bottom: 100px}
 div.font_size_120p *{
 	font-size: 120%;
 }
+@media screen {
+	#bk_img, div.tp-bgimg{display: none}
+}

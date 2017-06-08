@@ -99,7 +99,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
         <div class="tp-banner">
             <ul style="display:none;">
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="700">
-                    <img src="img/house_for_sale.png" alt="" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                    <img id="bk_img" src="img/house_for_sale.png" alt="" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
                     <div class="tp-caption largeblackbg sfb"
                          data-x="center"
                          data-y="95"
@@ -298,21 +298,25 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 
                                     <!-- item -->
                                     <div class="col-md-4 text-center">
-                                        <div class="panel panel-danger panel-pricing">
+                                        <div class="panel panel-pricing">
                                             <div class="panel-heading">
                                                 <i class="fa fa-desktop"></i>
-                                                <h3>Plan 1</h3>
+                                                <h3>Starter</h3>
                                             </div>
                                             <div class="panel-body text-center">
-                                                <p><strong>$100 / Month</strong></p>
+                                                <p><strong>FREE!</strong></p>
                                             </div>
                                             <ul class="list-group text-center">
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Analytics</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Script design</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Real-time conversation view</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Basic support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> 30 leads monthly</li>
+                                                <li class="list-group-item"> &nbsp;</li>
+                                                <li class="list-group-item"> &nbsp;</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#">Sign Up</a>
                                             </div>
                                         </div>
                                     </div>
@@ -320,21 +324,25 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 
                                     <!-- item -->
                                     <div class="col-md-4 text-center">
-                                        <div class="panel panel-warning panel-pricing">
+                                        <div class="panel panel-info panel-pricing">
                                             <div class="panel-heading">
                                                 <i class="fa fa-desktop"></i>
-                                                <h3>Plan 2</h3>
+                                                <h3>Professional</h3>
                                             </div>
                                             <div class="panel-body text-center">
-                                                <p><strong>$200 / Month</strong></p>
+                                                <p><strong>$149 / Month</strong></p>
                                             </div>
                                             <ul class="list-group text-center">
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Analytics</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Script design</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Real-time conversation view</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Premium support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> 100 leads monthly</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> CRM Integration</li>
+                                                <li class="list-group-item"> &nbsp;</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#">Try 14 days for free</a>
                                             </div>
                                         </div>
                                     </div>
@@ -345,18 +353,22 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                         <div class="panel panel-success panel-pricing">
                                             <div class="panel-heading">
                                                 <i class="fa fa-desktop"></i>
-                                                <h3>Plan 3</h3>
+                                                <h3>Corporate</h3>
                                             </div>
                                             <div class="panel-body text-center">
-                                                <p><strong>$300 / Month</strong></p>
+                                                <p><strong>$299 / Month</strong></p>
                                             </div>
                                             <ul class="list-group text-center">
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
-                                                <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Analytics</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Script design</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Real-time conversation view and engage</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Premium support</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> 200 leads monthly</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> CRM Integration</li>
+                                                <li class="list-group-item"><i class="fa fa-check"></i> Daily Summary Email</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#">Try 14 days for free</a>
                                             </div>
                                         </div>
                                     </div>
