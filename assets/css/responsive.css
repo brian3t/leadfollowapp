@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) { 
-    .tp-banner-container { height: 100% !important }
+    /*.tp-banner-container { height: 100% !important }*/
     .animated { -webkit-animation: 0 !important }
     #wrapper { width: 100% !important }
     nav {

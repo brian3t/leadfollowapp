@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <script type="text/javascript"> //<![CDATA[
-var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+var tlJsHost = ((window.location.protocol === "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
 document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
 //]]>
 </script>
@@ -124,7 +124,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                          data-captionhidden="on"
                          style="z-index: 9">
                     </div>
-                    <div class="tp-caption largetext sft light_text_shadow"
+                    <div class="tp-caption largetext sft light_text_shadow hidden-sm hidden-xs"
                          data-x="center"
                          data-y="250"
                          data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -253,13 +253,17 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                         <div class="center-line"></div>
                     </div>
                     <div class="marg50 row">
-                        <div class="col-sm-6 col-xs-12"><img src="/img/phone.png" alt="app"></div>
-                        <div class="col-sm-6 col-xs-12"><div class="row font_size_120p"><ul class="list-check row_marg_100">
-                            <li><i class="icon-ok"></i> LeadFollow starts a conversation and asks about budget, agenda, preferred areas...</li>
-                            <li><i class="icon-ok"></i> Manage Drip Campaigns within LeadFollow</li>
-                            <li><i class="icon-ok"></i> Watch automated conversations and jump in anytime</li>
-                            <li><i class="icon-ok"></i> Design custom scripts and monitor their performances</li>
-                        </ul></div></div>
+                        <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="/img/phone.png" alt="app"></div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="row font_size_120p">
+                                <ul class="list-check row_marg_100">
+                                    <li><i class="icon-ok"></i> LeadFollow starts a conversation and asks about budget, agenda, preferred areas...</li>
+                                    <li><i class="icon-ok"></i> Manage Drip Campaigns within LeadFollow</li>
+                                    <li><i class="icon-ok"></i> Watch automated conversations and jump in anytime</li>
+                                    <li><i class="icon-ok"></i> Design custom scripts and monitor their performances</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,7 +320,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                 <li class="list-group-item"> &nbsp;</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-primary" href="#">Sign Up</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#contact">Sign Up</a>
                                             </div>
                                         </div>
                                     </div>
@@ -342,7 +346,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                 <li class="list-group-item"> &nbsp;</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-primary" href="#">Try 14 days for free</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#contact">Try 14 days for free</a>
                                             </div>
                                         </div>
                                     </div>
@@ -368,7 +372,7 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                                                 <li class="list-group-item"><i class="fa fa-check"></i> Daily Summary Email</li>
                                             </ul>
                                             <div class="panel-footer">
-                                                <a class="btn btn-lg btn-block btn-primary" href="#">Try 14 days for free</a>
+                                                <a class="btn btn-lg btn-block btn-primary" href="#contact">Try 14 days for free</a>
                                             </div>
                                         </div>
                                     </div>
@@ -381,35 +385,35 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                 </div>
             </div>
         </div>
-        <form id="contact" class="col-xs-4 col-xs-offset-4 form-horizontal no-overlay">
+        <form id="contact" class="col-sm-12 col-md-8 col-md-offset-2 form-horizontal no-overlay">
             <br>
             <div class="col-xs-12">
                 <div class="promo-block">
                     <div class="promo-text">Contact Us</div>
                     <div class="center-line"></div>
                 </div>
-            </div>
-            <div class="clearfix"></div>
-            <br>
-            <div class="form-group">
-                <label class="control-label">Name </label>
-                <input type="text" class="form-control" name="name" placeholder="Your name">
-            </div>
 
-            <div class="form-group">
-                <label>Email Address</label>
-                <input type="email" name="from" class="form-control" placeholder="Your email address">
-            </div>
+                <div class="clearfix"></div>
+                <br>
+                <div class="form-group">
+                    <label class="control-label">Name </label>
+                    <input type="text" class="form-control" name="name" placeholder="Your name">
+                </div>
 
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" class="form-control"
-                          placeholder="Let us know what your role is, or how often you get in touch with house buyers, etc..."></textarea>
-            </div>
-            <input type="hidden" name="key" value="f>6Ea@/N7e">
-            <button type="button" id="send_email" class="btn btn-lg btn-primary col-xs-offset-5">Send</button>
-            <br><br>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" name="from" class="form-control" placeholder="Your email address">
+                </div>
 
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control"
+                              placeholder="Let us know what your role is, or how often you get in touch with house buyers, etc..."></textarea>
+                </div>
+                <input type="hidden" name="key" value="f>6Ea@/N7e">
+                <div class="text-center"><button type="button" id="send_email" class="btn btn-lg btn-primary">Send</button></div>
+                <br><br>
+            </div>
         </form>
         <div id="email_success" class="text-center col-xs-6 col-xs-offset-3 alert alert-warning alert-dismissible" style="display: none;font-size: 150%"
              role="alert">
@@ -422,20 +426,10 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="promo-text-footer">Get in Touch</div>
                         <ul class="contact-footer">
-                            <li><i class="icon-location"></i> Adress: 5995 Dandridge Ln, San Diego</li>
-                            <li><i class="icon-mobile"></i> Phone:(559) 347 4767</li>
-                            <li><i class="icon-videocam"></i> Skype: companyname</li>
-                            <li><i class="icon-mail"></i> E-mail: support@email.com</li>
-                            <li><i class="icon-key"></i> Weekend: from 9 am to 6 pm</li>
-                        </ul>
-                        <ul class="soc-footer">
-                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-tumblr-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                            <li><i class="icon-location"></i> Address: 5995 Dandridge Ln, San Diego</li>
+                            <li><i class="icon-mobile"></i> Phone: <a href="tel:5593474767">(559) 347 4767</a></li>
+                            <li><i class="icon-mail"></i> E-mail: <a href="mailto:support@leadfollowapp.com">support@leadfollowapp.com</a></li>
+                            <li><i class="icon-key"></i> Hours: Mon-Sun 7AM-7PM PST</li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
@@ -446,34 +440,29 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="promo-text-footer">Flickr Photos</div>
-                        <div class="flickr_widget_wrapper">
-                        </div>
+                        <div class="promo-text-footer">Connect with us</div>
+                        <ul class="soc-footer">
+                            <li><a ><i class="fa fa-facebook-square"></i></a></li>
+                            <li><a ><i class="fa fa-twitter-square"></i></a></li>
+                            <li><a ><i class="fa fa-tumblr-square"></i></a></li>
+                            <li><a ><i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a ><i class="fa fa-google-plus-square"></i></a></li>
+                            <li><a ><i class="fa fa-flickr"></i></a></li>
+                            <li><a ><i class="fa fa-vimeo-square"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="footer-bottom">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-ms-12 pull-left">
-                            <div class="copyright">Copyright © 2017 LeadFollowApp. Encrypted with 256-bit
+                        <div class="col-xs-12 ">
+                            <div class="copyright text-center">Copyright © 2017 LeadFollowApp. Encrypted with 256-bit
                                 <script language="JavaScript" type="text/javascript">
                                     TrustLogo("https://leadfollowapp.com/img/comodo_secure_seal_76x26_transp.png", "CL1", "none");
                                 </script>
                                 <a href="https://www.positivessl.com/" id="comodoTL">Positive SSL</a>
 
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-ms-12 pull-right">
-                            <div class="foot_menu">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="blog_classic_sidebar.html">Blog</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="//themeforest.net/item/xenia-refined-html-5-css-3-corporate-template/6863456?ref=Dankov" target="_blank">Purchase</a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>

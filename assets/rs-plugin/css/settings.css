@@ -1463,6 +1463,11 @@ ul.row_marg_100 > li{margin-bottom: 100px}
 div.font_size_120p *{
 	font-size: 120%;
 }
-@media screen {
-	#bk_img, div.tp-bgimg{display: none}
+@media (max-width: 480px) {
+	.font120_mobile{
+		font-size: 120% !important;
+	}
 }
+/*@media (max-width: 1200px) {*/
+	/*#bk_img, div.tp-bgimg{display: none}*/
+/*}*/
