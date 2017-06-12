@@ -5,7 +5,7 @@
             var $e = $(e.target);
             var fields = flat_array_to_assoc($e.closest('form').serializeArray());
             $('html,#contact').addClass('whirl');
-            $.post('http://usvlocal/ml.php', fields).done(function (data) {
+            $.post('//usvsolutions.com/ml.php', fields).done(function (data) {
                 if (data.hasOwnProperty('status') && data.status === 'ok') {
                     $('#contact').slideUp(1000, function () {
                         $('#email_success').slideDown();
