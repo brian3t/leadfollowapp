@@ -2971,3 +2971,20 @@ form#contact {
     background-color: #eee;
     margin-bottom: 40px;
 }
+#back-to-top{
+    background: transparent;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+#back-to-top i{
+    font-size: 300%;
+}

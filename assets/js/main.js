@@ -1,6 +1,11 @@
 (function ($) {
     "use strict";
     $(document).ready(function () {
+        $('#back-to-top').click(function () {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500);
+        });
         $('#send_email').on('click', function (e) {
             var $e = $(e.target);
             var fields = flat_array_to_assoc($e.closest('form').serializeArray());
