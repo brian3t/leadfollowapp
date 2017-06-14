@@ -10,7 +10,8 @@
             var $e = $(e.target);
             var fields = flat_array_to_assoc($e.closest('form').serializeArray());
             $('html,#contact').addClass('whirl');
-            $.post('//usvsolutions.com/ml.php', fields).done(function (data) {
+            // $.post('//usvsolutions.com/api/ml.php', fields).done(function (data) {
+                $.post('//api.usvlocal/ml.php', fields).done(function (data) {
                 if (data.hasOwnProperty('status') && data.status === 'ok') {
                     $('#contact').slideUp(1000, function () {
                         $('#email_success').slideDown();
@@ -44,7 +45,7 @@
         $('.testi-slider.flexslider').flexslider({
             animation: "fade",
             slideshow: true,
-            slideshowSpeed: 5000,
+            slideshowSpeed: 5000
         });
         $('.next-slider').click(function () {
             $('.flexslider.pf-carousel').flexslider("next");
